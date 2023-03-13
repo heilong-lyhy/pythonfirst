@@ -15,3 +15,5 @@ except ZeroDivisionError as e:
     print('不能除以0，异常：{}'.format(e))
 except ValueError as e:
     print('您输入的是一个无效数字，异常：{}'.format(e))
+finally:
+    print('资源释放..')
